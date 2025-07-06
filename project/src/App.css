@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Supera Gothic UltraLight';
+  src: url('./assets/fonts/SuperaGothic-UltraLight.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Supera Gothic UltraBlack';
+  src: url('./assets/fonts/SuperaGothic-UltraBlack.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Supera Gothic Thin';
+  src: url('./assets/fonts/SuperaGothic-Thin.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Supera Gothic';
+  src: url('./assets/fonts/SuperaGothic-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Supera Gothic Light';
+  src: url('./assets/fonts/SuperaGothic-Light.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Supera Gothic ExtraBold';
+  src: url('./assets/fonts/SuperaGothic-ExtraBold.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Supera Gothic Book';
+  src: url('./assets/fonts/SuperaGothic-Book.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Supera Gothic Bold';
+  src: url('./assets/fonts/SuperaGothic-Bold.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Supera Gothic Black';
+  src: url('./assets/fonts/SuperaGothic-Black.otf') format('opentype');
+  font-weight: 400;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*  For Firefox  */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
